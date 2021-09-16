@@ -12,4 +12,4 @@ zone_id = ""
 # from Strava.
 #
 # Use "0" to disable caching.
-vars = { TILE_CACHE_SECS = "86400", STRAVA_ID, STRAVA_COOKIES }
+vars = { TILE_CACHE_SECS = "86400", STRAVA_ID = 0, STRAVA_COOKIES="" }
