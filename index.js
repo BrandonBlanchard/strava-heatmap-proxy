@@ -3,7 +3,7 @@ const Router = require("./router");
 // The Cloudflare worker runtime populates these globals.
 const Env = {
   //STRAVA_ID,
-  STRAVA_COOKIES,
+  //STRAVA_COOKIES,
   TILE_CACHE_SECS: +TILE_CACHE_SECS || 0
 };
 
@@ -90,7 +90,7 @@ async function handleTileProxyRequest(request) {
 
   const proxiedRequest = new Request(proxyUrl, {
     method: "GET",
-    headers: new Headers({ Cookie: Env.STRAVA_COOKIES }),
+    headers: new Headers({ }),//Cookie: Env.STRAVA_COOKIES }),
   });
 
   return await fetch(proxiedRequest);
