@@ -28,7 +28,7 @@ Start by forking the repository and modifying `wrangler.toml` to reference your
 Cloudflare account. The Deploy to Cloudflare Workers button below will do this
 for you:
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/erik/strava-heatmap-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/BrandonBlanchard/strava-heatmap-proxy)
 
 In your forked repository, we need to set up some GitHub secrets
 (`github.com/you/strava-heatmap-proxy/settings/secrets/actions`).
