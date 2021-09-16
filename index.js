@@ -2,7 +2,7 @@ const Router = require("./router");
 
 // The Cloudflare worker runtime populates these globals.
 const Env = {
-  STRAVA_ID,
+  //STRAVA_ID,
   STRAVA_COOKIES,
   TILE_CACHE_SECS: +TILE_CACHE_SECS || 0
 };
@@ -76,7 +76,7 @@ async function handleTileProxyRequest(request) {
 
   const [_, kind, color, z, x, y, res] = match;
   const data = {
-    strava_id: Env.STRAVA_ID,
+    strava_id:'',// Env.STRAVA_ID,
     color,
     x,
     y,
