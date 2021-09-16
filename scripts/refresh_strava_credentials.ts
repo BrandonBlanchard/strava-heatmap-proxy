@@ -78,5 +78,5 @@ const requiredCookies = allCookies.filter((it) =>
 
 const stravaCookies = requiredCookies.join(";");
 
-console.log(`STRAVA_ID='${stravaId}'`);
-console.log(`STRAVA_COOKIES='${stravaCookies}'`);
+// console.log(`STRAVA_ID='${stravaId}'`);
+// console.log(`STRAVA_COOKIES='${stravaCookies}'`);
